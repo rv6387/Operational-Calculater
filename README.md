@@ -1,9 +1,9 @@
 // Operational-Calculater
 // Develop a basic calculator that performs addition, subtraction, multiplication, and division.
+
+
 #include <iostream>
-
 using namespace std;
-
 void add(double x, double y) {
     cout << x << " + " << y << " = " << (x + y) << endl;
 }
