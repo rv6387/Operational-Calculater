@@ -57,7 +57,7 @@ int main() {
                     divide(num1, num2);
                     break;
             }
-        } else if (choice != 5) {
+        } else if (choice != 4) {
             cout << "Blank" << endl;
         }
 
