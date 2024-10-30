@@ -33,8 +33,8 @@ int main() {
         cout << "2. Subtraction" << endl;
         cout << "3. Multiplication" << endl;
         cout << "4. Division" << endl;
-
-        cout << "Enter choice (1/2/3/4): ";
+        cout << "5. Exit" << endl;
+         cout << "Enter choice (1/2/3/4/5): ";
         cin >> choice;
 
         if (choice >= 1 && choice <= 4) {
@@ -57,11 +57,11 @@ int main() {
                     divide(num1, num2);
                     break;
             }
-        } else if (choice != 4) {
+        } else if (choice != 5) {
             cout << "Blank" << endl;
         }
 
-    } while (choice != 4);
+    } while (choice != 5);
 
     cout << "Exiting the calculator. Goodbye!" << endl;
 
